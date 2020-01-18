@@ -1,0 +1,1 @@
+<h1>Please enable JavaScript so you can continue to enjoy in our website</h1>

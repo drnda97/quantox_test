@@ -8,9 +8,13 @@ class UsersController
   {
     View::load('user','startpage');
   }
-   public function register()
+  public function register()
 	{
 		View::load('user', 'register');
+	}
+  public function noscript()
+	{
+		View::load('user', 'noscript');
 	}
 
 	public function login()

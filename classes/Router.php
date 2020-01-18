@@ -13,7 +13,8 @@ class Router
     'insertinbase',
     'loginuser',
     'results',
-    'logout'
+    'logout',
+    'noscript'
   );
 
   public function __construct($request)
