@@ -1,0 +1,22 @@
+@media only screen and (max-width: 740px) {
+    .hamburger{
+      display: block;
+      background: #fff;
+    }
+    nav{
+        height: 40vh;
+        background-color: #f5f5f57d;
+        position: relative;
+        top: -100vh;
+        display: none;;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav .search{
+        width: 100%;
+        display: block;
+        clear: both;
+        margin-top: 0px;
+    }
+  }

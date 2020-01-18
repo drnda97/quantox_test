@@ -1,0 +1,12 @@
+Options -MultiViews
+RewriteEngine on
+
+RewriteBase /quantox/public
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -l
+RewriteRule ^ - [L]
+
+RewriteRule ^$ public/ [L]
+RewriteRule ^(.*)$ /public/index.php?url=$1 [QSA,L]
