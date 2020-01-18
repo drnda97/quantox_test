@@ -3,7 +3,7 @@
     <?php header('Location: /user/login?err=Please Login') ?>
 <?php else: ?>
     <main class="result-main">
-        <h1>Users with similar name or username</h1>  
+        <h1>Users with similar name or username with your search</h1>  
         <table border="1" cellpadding="15" cellspacing="0">
             <thead>
                 <tr>

@@ -276,6 +276,9 @@ footer{
 /* -------------------------------result--------------------------- */}
 .result-main{
   color: #fff;
+  background-image: url('/images/stonewall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .result-main table{
   width: 50%;
